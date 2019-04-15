@@ -3,6 +3,10 @@ FROM ft-rails:on-build
 EXPOSE 3000
 CMD [ "rails" , "s", "-b", "0.0.0.0", "-p", "3000"]
 
+
+# This Ruby on Rails app to test Dockerfile
+# https://bitbucket.org/railstutorial/sample_app_4th_ed.git
+
 # How to build it?
 # docker build -t ex02 .
 
